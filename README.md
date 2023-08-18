@@ -1,4 +1,4 @@
-# 2022_fall_cmps_1302
+# 2023_fall_cmps_1302
 
 This is the code repository for Dalton State College Fall 2023 CMPS 1302.
 
