@@ -1,9 +1,0 @@
-
-    \frametitle{Accessing and Changing a TextField Object's Text}
-
-    Use the \mil{getText()} method to access a \mil{TextField}'s text.
-
-    \bigskip
-
-    Use the \mil{setText()} method to change a \mil{TextField}'s text.
-

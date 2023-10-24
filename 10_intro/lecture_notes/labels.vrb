@@ -1,9 +1,0 @@
-
-    \frametitle{Accessing and Changing a Label Object's Text}
-
-    Use the \mil{getText()} method to access a \mil{Label} object's text.
-
-    \bigskip
-
-    Use the \mil{setText()} method to change a \mil{Label} object's text.
-
