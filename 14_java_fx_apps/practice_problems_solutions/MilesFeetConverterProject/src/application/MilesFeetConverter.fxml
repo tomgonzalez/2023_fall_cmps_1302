@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="application.MilesFeetConverterController">
+   <children>
+      <Label layoutX="80.0" layoutY="104.0" text="Miles" />
+      <Label layoutX="80.0" layoutY="208.0" text="Feet" />
+      <Label fx:id="feetLabel" layoutX="151.0" layoutY="208.0" />
+      <TextField fx:id="milesTextBox" layoutX="145.0" layoutY="100.0" onAction="#handleMilesTextBox" />
+   </children>
+</AnchorPane>
