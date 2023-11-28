@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MilesConverterController">
+   <children>
+      <Label layoutX="47.0" layoutY="36.0" text="Miles:" AnchorPane.leftAnchor="47.0" AnchorPane.topAnchor="36.0" />
+      <TextField fx:id="milesField" layoutX="88.0" layoutY="32.0" onAction="#handleMilesField" AnchorPane.leftAnchor="88.0" AnchorPane.topAnchor="32.0" />
+      <TextArea fx:id="textArea" layoutX="30.0" layoutY="78.0" prefHeight="295.0" prefWidth="536.0" AnchorPane.bottomAnchor="27.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="34.0" AnchorPane.topAnchor="78.0" />
+   </children>
+</AnchorPane>
