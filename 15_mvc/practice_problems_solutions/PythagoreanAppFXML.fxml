@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PythagoreanAppController">
+   <children>
+      <Label layoutX="31.0" layoutY="28.0" text="a" />
+      <Label layoutX="227.0" layoutY="28.0" text="b" />
+      <TextField fx:id="aField" layoutX="45.0" layoutY="24.0" onAction="#handleAField" AnchorPane.leftAnchor="45.0" AnchorPane.topAnchor="24.0" />
+      <TextField fx:id="bField" layoutX="243.0" layoutY="24.0" onAction="#handleBField" AnchorPane.topAnchor="24.0" />
+      <TextArea fx:id="textArea" layoutX="31.0" layoutY="73.0" prefHeight="302.0" prefWidth="541.0" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="31.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="73.0" />
+   </children>
+</AnchorPane>
